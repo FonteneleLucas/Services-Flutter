@@ -19,13 +19,22 @@ class _SignUpState extends State<SignUp> {
             shrinkWrap: true,
             children: <Widget>[
               TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Nome',
+                ),
+              ),
+              TextFormField(
                 keyboardType: TextInputType.emailAddress,
                 decoration: InputDecoration(
                   hintText: 'Email',
                 ),
               ),
-              TextFormField(),
-              TextFormField(),
+              TextFormField(
+                obscureText: true,
+                decoration: InputDecoration(
+                  hintText: 'Senha',
+                ),
+              ),
               RaisedButton(
                 child: Text('Cadastrar'),
                 onPressed: () {},
