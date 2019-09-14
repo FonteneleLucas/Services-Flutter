@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
+class Dashboard extends StatefulWidget {
   @override
-  _HomePageState createState() => new _HomePageState();
+  _DashboardState createState() => new _DashboardState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _DashboardState extends State<Dashboard> {
 
   @override
   Widget build(BuildContext context) {
