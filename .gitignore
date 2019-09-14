@@ -27,6 +27,8 @@
 .pub/
 /build/
 
+/lib/constants/application_constants.dart
+
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
@@ -68,3 +70,5 @@
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+
